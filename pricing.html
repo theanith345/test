@@ -9,40 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
 </head>
-<body class="bg-yellow-300 pt-20">
+<body class="bg-yellow-300 pt-32 md:pt-24">
     <nav class="fixed top-0 left-0 w-full bg-yellow-200 shadow-md z-50">
-        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-            <a href="index.html" class="text-5xl font-bold" style="font-family: 'Ole', serif;">diament de francee</a>
-            <div class="hidden md:flex space-x-8 tracking-[4px]">
-                <a href="home.html" class="hover:bg-gray-200 px-3 font-bold py-2">Home</a>
-                <a href="about.html" class="hover:bg-gray-200 px-3 font-bold py-2">About</a>
-                <a href="menu.html" class="hover:bg-gray-200 px-3 font-bold py-2">Menu</a>
-                <a href="contact.html" class="hover:bg-gray-200 px-3 font-bold py-2">Contact</a>
-                <a href="pricing.html" class="hover:bg-gray-200 px-3 font-bold py-2">Pricing</a>
+        <div class="max-w-7xl mx-auto flex flex-col gap-3 px-4 py-3 sm:px-6 md:flex-row md:justify-between md:items-center md:py-4">
+            <a href="index.html" class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-none break-words" style="font-family: 'Ole', serif;">diament de francee</a>
+            <div class="flex flex-wrap gap-2 text-sm font-bold tracking-[2px] sm:text-base md:gap-4 lg:gap-8 lg:tracking-[4px]">
+                <a href="home.html" class="hover:bg-gray-200 px-2 sm:px-3 py-2">Home</a>
+                <a href="about.html" class="hover:bg-gray-200 px-2 sm:px-3 py-2">About</a>
+                <a href="menu.html" class="hover:bg-gray-200 px-2 sm:px-3 py-2">Menu</a>
+                <a href="contact.html" class="hover:bg-gray-200 px-2 sm:px-3 py-2">Contact</a>
+                <a href="pricing.html" class="hover:bg-gray-200 px-2 sm:px-3 py-2">Pricing</a>
             </div>
         </div>
     </nav>
 
-    <main class="max-w-[1000px] mx-auto px-6 py-16">
-        <h1 class="text-5xl font-bold mb-8" style="font-family: 'Ole', serif;">Pricing</h1>
-        <div class="grid md:grid-cols-3 gap-6">
-            <section class="bg-yellow-100 p-6 rounded-lg shadow">
-                <h2 class="text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Lunch</h2>
+    <main class="max-w-[1000px] mx-auto px-4 sm:px-6 py-10 sm:py-16">
+        <h1 class="text-4xl sm:text-5xl font-bold mb-8" style="font-family: 'Ole', serif;">Pricing</h1>
+        <div class="grid gap-6 md:grid-cols-3">
+            <section class="bg-yellow-100 p-5 sm:p-6 rounded-lg shadow">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Lunch</h2>
+                <img src="https://i.pinimg.com/736x/cf/40/1e/cf401ef5f8fde2a8287f4976a8ac909c.jpg" alt="Lunch" class="w-full h-48 object-cover rounded-lg mb-4">
                 <p class="text-4xl font-bold mb-4">$18</p>
                 <p class="text-lg font-bold">One main dish with soup or salad.</p>
             </section>
-            <section class="bg-yellow-100 p-6 rounded-lg shadow">
-                <h2 class="text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Dinner</h2>
+            <section class="bg-yellow-100 p-5 sm:p-6 rounded-lg shadow">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Dinner</h2>
+                <img src="https://i.pinimg.com/736x/ac/d6/dd/acd6ddb2d38ea0c52b112d91427eeb0c.jpg" alt="Dinner" class="w-full h-48 object-cover rounded-lg mb-4">
                 <p class="text-4xl font-bold mb-4">$32</p>
                 <p class="text-lg font-bold">Three-course French dinner set.</p>
             </section>
-            <section class="bg-yellow-100 p-6 rounded-lg shadow">
-                <h2 class="text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Event</h2>
+            <section class="bg-yellow-100 p-5 sm:p-6 rounded-lg shadow">
+                <h2 class="text-2xl sm:text-3xl font-bold mb-4" style="font-family: 'Ole', serif;">Event</h2>
+                <img src="https://i.pinimg.com/736x/51/6a/4d/516a4db05b88faf8cde2874dfc05fcd7.jpg" alt="Event" class="w-full h-48 object-cover rounded-lg mb-4">
                 <p class="text-4xl font-bold mb-4">$55</p>
                 <p class="text-lg font-bold">Private event menu per person.</p>
             </section>
-             <footer class="mt-12">
-            <div class="bg-zinc-900 text-white text-center p-8 rounded-lg shadow">
+             <footer class="mt-12 md:col-span-3">
+            <div class="bg-zinc-900 text-white text-center p-5 sm:p-8 rounded-lg shadow">
                 <h3 class="text-3xl font-bold mb-3" style="font-family: 'Ole', serif;">Diamant de France</h3>
                 <p class="font-bold mb-5">Classic French dining made with fresh ingredients and warm service.</p>
 
